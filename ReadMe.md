@@ -8,7 +8,6 @@
 
      npm install say
 
-
 # usage - Mac OS voices
 
       var say = require('say'),
@@ -26,7 +25,6 @@
         sys.puts('text to speech complete'.green);
       });
 
-
       // try using translate.js with say.js
       var translate = require('translate');
 
@@ -37,9 +35,9 @@
 
 # Usage - Linux
 
-Linux support involves the use of [Festival](http://www.cstr.ed.ac.uk/projects/festival/), which uses decidedly less friendly names for its voices.  Voices for 
-Festival sometimes need to be installed separately - you can check which voices are available by starting up Festival in interactive mode, typing `(voice_`, 
-and pressing `TAB`.  Then take the name of the voice you'd like to try, minus the parentheses, and pass it in to say.js.  
+Linux support involves the use of [Festival](http://www.cstr.ed.ac.uk/projects/festival/), which uses decidedly less friendly names for its voices.  Voices for
+Festival sometimes need to be installed separately - you can check which voices are available by starting up Festival in interactive mode, typing `(voice_`,
+and pressing `TAB`.  Then take the name of the voice you'd like to try, minus the parentheses, and pass it in to say.js.
 
 ## voices
 ### girls
@@ -63,7 +61,7 @@ and pressing `TAB`.  Then take the name of the voice you'd like to try, minus th
 - Bells
 - Boing
 - Bubbles
-- Cellos 
+- Cellos
 - Deranged
 - Good News
 - Hysterical
@@ -86,4 +84,4 @@ say.speak calls are asynchronous, lol ^_^
 
 Mac OS
 
-          
+
